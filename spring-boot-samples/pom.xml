@@ -7,7 +7,7 @@
 		<version>1.4.0.RELEASE</version>
 		<relativePath>../spring-boot-starters/spring-boot-starter-parent</relativePath>
 	</parent>
-	<artifactId>spring-boot-samples</artifactId>
+	<artifactId>spring-boot-starter-parent</artifactId>
 	<packaging>pom</packaging>
 	<name>Spring Boot Samples</name>
 	<description>Spring Boot Samples</description>

@@ -41,7 +41,7 @@
 						<inherited>false</inherited>
 						<configuration>
 							<settingsFile>src/it/settings.xml</settingsFile>
-							<projectsDirectory>${main.basedir}/spring-boot-samples/</projectsDirectory>
+							<projectsDirectory>${main.basedir}/spring-boot-starter-parent/</projectsDirectory>
 							<localRepositoryPath>${project.build.directory}/local-repo</localRepositoryPath>
 							<skipInvocation>${skipTests}</skipInvocation>
 							<streamLogs>true</streamLogs>
@@ -78,7 +78,7 @@
 								<configuration>
 									<target>
 										<delete includeemptydirs="true">
-											<fileset dir="${main.basedir}/spring-boot-samples" includes="**/target/" />
+											<fileset dir="${main.basedir}/spring-boot-starter-parent" includes="**/target/" />
 										</delete>
 									</target>
 								</configuration>

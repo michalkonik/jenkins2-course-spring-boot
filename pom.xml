@@ -231,7 +231,7 @@
 								</goals>
 								<configuration>
 									<includes>
-										<include>${basedir}/spring-boot-samples/**/build.gradle</include>
+										<include>${basedir}/spring-boot-starter-parent/**/build.gradle</include>
 									</includes>
 									<token>springBootVersion =\s+.*+</token>
 									<value>springBootVersion = '${project.version}'</value>
@@ -245,7 +245,7 @@
 								</goals>
 								<configuration>
 									<includes>
-										<include>${basedir}/spring-boot-samples/**/build.xml</include>
+										<include>${basedir}/spring-boot-starter-parent/**/build.xml</include>
 									</includes>
 									<token>spring-boot\.version\"\s.*+</token>
 									<value>spring-boot.version" value="${project.version}" /&gt;</value>
